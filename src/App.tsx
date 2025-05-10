@@ -1,9 +1,9 @@
-
+import MainBody from "./mainBody"
 function App() {
 
   return (
     <>
-      
+      <MainBody />
     </>
   )
 }
