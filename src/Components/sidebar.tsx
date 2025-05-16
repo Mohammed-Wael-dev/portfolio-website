@@ -17,7 +17,7 @@ export default function Sidebar() {
                 <div className={`${sidebar ? `rotate-[45deg] translate-y-[-5px]`:`rotate-[-0deg]`} duration-[0.5s] w-[20px] h-[2px] bg-black`}></div>
             </div>
 
-            <div className={`${sidebar ? 'z-[5]' : '' } ${sidebarStyle.sidebarContainer} flex fixed w-[100%] h-screen`}>
+            <div className={` z-[5] ${sidebarStyle.sidebarContainer} flex fixed w-[100%] h-screen`}>
                 <div className={`${sidebar ? sidebarStyle.openBox : sidebarStyle.closeBox} fixed bg-white`}>
                     <ul className={`${!sidebar ? 'hidden' : null} ${sidebarStyle.sidebarTxt} flex flex-col justify-center items-center h-full gap-y-[20px]`}>
                         <li>
