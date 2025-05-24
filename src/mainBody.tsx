@@ -3,6 +3,7 @@ import LandingSection from "./Components/landingSection"
 import Sidebar from "./Components/sidebar"
 import FirstMountain from "./Components/firstMountain"
 import SecondMountain from "./Components/secondMountain"
+import Portfolio from "./Components/portfolio"
 export default function MainBody() {
 
     return(
@@ -12,6 +13,7 @@ export default function MainBody() {
             <LandingSection/>
             <FirstMountain/>
             <SecondMountain/>
+            <Portfolio/>
         </div>
         )
 }
